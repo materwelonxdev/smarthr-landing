@@ -1,0 +1,103 @@
+.benefits-section {
+  background: #fff;
+  padding: 100px 0;
+}
+
+/* Left list */
+.benefit-item {
+  margin-bottom: 36px;
+}
+
+.benefit-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.benefit-number {
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--bs-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--bs-heading-color);
+}
+
+.benefit-text {
+  margin: 0;
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Right panel */
+.benefits-panel {
+  position: relative;
+  height: 480px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.benefits-stripes {
+  position: absolute;
+  top: -120px;
+  right: 60px;
+  width: 280px;
+  height: 760px;
+  transform: rotate(38deg);
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(242, 101, 34, 0.4) 0 2px,
+    transparent 2px 8px
+  );
+}
+
+.benefit-card-tasks {
+  position: absolute;
+  left: 5%;
+  top: 38px;
+  width: 44%;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.benefit-card-candidate {
+  position: absolute;
+  left: 52%;
+  top: 84px;
+  width: 62%;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+@media (max-width: 575px) {
+  .benefits-panel {
+    height: 400px;
+  }
+
+  .benefit-card-tasks {
+    left: 4%;
+    top: 30px;
+    width: 52%;
+  }
+
+  .benefit-card-candidate {
+    left: 56%;
+    top: 70px;
+    width: 70%;
+  }
+}

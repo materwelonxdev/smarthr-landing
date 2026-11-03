@@ -1,0 +1,113 @@
+/* Scroll to top */
+.scroll-top-btn {
+  position: fixed;
+  left: 16px;
+  bottom: 24px;
+  z-index: 1040;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--bs-primary);
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.25s, transform 0.25s, visibility 0.25s;
+}
+
+.scroll-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+  background: #d9561a;
+}
+
+/* Chat button */
+.chat-btn {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  z-index: 1040;
+  width: 56px;
+  height: 56px;
+  border: 0;
+  border-radius: 50%;
+  background: #00ba51;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.chat-btn:hover {
+  transform: scale(1.08);
+}
+
+.chat-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #d90000;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Chat popup */
+.chat-popup {
+  position: fixed;
+  right: 16px;
+  bottom: 96px;
+  z-index: 1040;
+  width: 270px;
+  max-width: calc(100vw - 32px);
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px 18px 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  animation: chatPop 0.25s ease;
+}
+
+.chat-popup p {
+  margin: 0;
+  color: #111827;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.chat-popup a {
+  color: #16a34a;
+}
+
+.chat-popup-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  border: 0;
+  background: none;
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
+
+@keyframes chatPop {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartHR - HRM,Payroll,Workforce & CRM Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+
+    <!--Javascript-->
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+
+
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <img src="assets/img/logo.svg" alt="SmartHR Logo">
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Demos">Demos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Templates">Templates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#InnerPages">Inner Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#react-features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#FAQ">FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <!--Home Page-->
+    <section id="Home" class="hero-section text-center">
+
+        <div class="container">
+            <!-- Main Headlines -->
+            <h1 class="hero-title text-white">
+                Professional HR Management<br>
+                Template with <span class="highlight-cyan">React & Bootstrap</span>
+            </h1>
+
+            <p class="hero-subtitle text-white mt-4">
+                A complete HR solution designed to enhance your recruitment process with ease.
+            </p>
+
+            <!-- Technology Buttons -->
+            <div class="hero-buttons mt-5 d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-light d-flex align-items-center gap-2 hero-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React"
+                        width="20"> React
+                </a>
+                <a href="#" class="btn btn-light d-flex align-items-center gap-2 hero-btn">
+                    <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="Next" width="20">NextJs
+                </a>
+            </div>
+
+            <!-- Dashboard Image Preview -->
+            <div class="hero-image-wrapper mt-5 pt-4">
+                <div class="dashboard-preview-holder position-relative d-inline-block">
+                    <!-- Left Diagonal Background Pill Design -->
+                    <div class="dashboard-bg-pill dashboard-pill-left" aria-hidden="true">
+                        <div class="dashboard-inner-pill"></div>
+                    </div>
+
+                    <!-- Right Diagonal Background Pill Design -->
+                    <div class="dashboard-bg-pill dashboard-pill-right" aria-hidden="true">
+                        <div class="dashboard-inner-pill"></div>
+                    </div>
+
+                    <!-- Dashboard Image Mockup -->
+                    <img src="assets/img/dashboard.png" alt="Admin Dashboard Preview" class="img-fluid dashboard-mockup">
+
+                    <!-- Decorative Peach Dot -->
+                    <div class="dashboard-peach-dot" aria-hidden="true"></div>
+
+                    <!-- Floating React Element on Right Top Edge of Dashboard Image -->
+                    <div class="floating-react-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview-section text-center">
+        <!-- Side Dot Patterns -->
+        <div class="dot-pattern pattern-left"></div>
+        <div class="dot-pattern pattern-right"></div>
+
+        <div class="container position-relative z-1">
+            <!-- Section Header -->
+            <div class="overview-badge">Overview</div>
+            <h2 class="overview-title mb-5">All-in-One HR Solution for Growing Businesses</h2>
+
+            <!-- Feature Cards Row -->
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card h-100 border-0">
+                        <div class="card-img-wrapper">
+                            <img src="assets/img/overview1.png" class="card-img-top" alt="Effortless Job Listings">
+                        </div>
+                        <div class="card-body px-2">
+                            <h5 class="card-title">Effortless Job Listings</h5>
+                            <p class="card-text text-muted">Simplify your recruitment efforts by creating and managing
+                                job postings.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card h-100 border-0">
+                        <div class="card-img-wrapper">
+                            <img src="assets/img/overview2.png" class="card-img-top" alt="Real-Time Analytics">
+                        </div>
+                        <div class="card-body px-2">
+                            <h5 class="card-title">Real-Time Analytics</h5>
+                            <p class="card-text text-muted">Access insights on employee performance, attendance, and
+                                more.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card h-100 border-0">
+                        <div class="card-img-wrapper">
+                            <img src="assets/img/overview3.png" class="card-img-top" alt="Candidate Tracking">
+                        </div>
+                        <div class="card-body px-2">
+                            <h5 class="card-title">Candidate Tracking</h5>
+                            <p class="card-text text-muted">Streamline and manage your entire hiring pipeline with ease.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card h-100 border-0">
+                        <div class="card-img-wrapper">
+                            <img src="assets/img/overview4.png" class="card-img-top" alt="Customizable Theme Settings">
+                        </div>
+                        <div class="card-body px-2">
+                            <h5 class="card-title">Customizable Theme Settings</h5>
+                            <p class="card-text text-muted">Adjust and customize your platform with intuitive theme
+                                settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Our Templates Section-->
+    <section id="Templates" class="templates-section">
+        <!--Decorative Elements-->
+        <div class="decor-circle circle-top-right"></div>
+        <div class="decor-circle circle-bottom-left"></div>
+
+        <div class="container position-relative z-1">
+
+            <!--Section Header-->
+            <div class="text-center mb-5">
+
+                <div class="templates-subtitle-wrapper">
+                    <span class="templates-subtitle">Our Templates</span>
+                </div>
+
+                <h2 class="templates-title mt-2">
+                    <span class="text-orange">Explore</span> Our Templates
+                </h2>
+
+                <p class="templates-desc mt-3">
+                    Choose the right template for HR management and field service operations
+                </p>
+            </div>
+            <!--Cards Row-->
+            <div class="row g-4 justify-content-center">
+                <!--Card-1 SmartHR HRM-->
+                <div class="col-lg-6">
+                    <div class="template-card">
+                        <div class="template-img-wrapper">
+                            <img src="assets/img/hrm.png" alt="SmartHR Dashboard" class="img-fluid rounded">
+                        </div>
+                        <div class="template-card-body text-center mt-4">
+                            <h4 class="template-card-title">SmartHR HRM</h4>
+                            <p class="template-card-desc">HR Management suite built with bootstrap 5</p>
+
+                            <!-- Tech Tags -->
+                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                <span class="tech-badge badge-react">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                        width="14" alt="React"> React
+                                </span>
+                                <span class="tech-badge badge-nextjs">
+                                    <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="Next"
+                                        width="20">NextJs </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Card-2 Field Service Management-->
+                <div class="col-lg-6">
+                    <div class="template-card">
+                        <div class="template-img-wrapper">
+                            <img src="assets/img/fsm.png" alt="Field Service Dashboard" class="img-fluid rounded">
+                        </div>
+                        <div class="template-card-body text-center mt-4">
+                            <h4 class="template-card-title">
+                                Field Service Management <span class="badge bg-danger ms-2 badge-new">NEW</span>
+                            </h4>
+                            <p class="template-card-desc">Field Service Operations built with Tailwind CSS</p>
+
+                            <!--Tech Tags-->
+                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                <span class="tech-badge badge-react">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                        width="14" alt="React">React
+                                </span>
+                                <span class="tech-badge badge-nextjs">
+                                    <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="Next"
+                                        width="20">NextJs </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section-->
+    <section class="use-case-section text-center">
+        <div class="container position-relative z-1">
+
+            <!--Section Header-->
+            <div class="mb-5 pb-3">
+                <div class="use-case-subtitle-wrapper">
+                    <span class="use-case-subtitle">Use Case</span>
+                </div>
+                <h2 class="use-case-title mt-2">Designed for HR Professionals</h2>
+            </div>
+
+            <!--Feature Rows-->
+            <div class="row g-4 justify-content-center">
+
+                <!--1.Small Teams-->
+                <div class="col-md-4">
+                    <div class="use-case-item">
+                        <div class="use-case-icon-wrapper mx-auto mb-4">
+                            <i class="bi bi-people text-dark fs-2"></i>
+                        </div>
+                        <h5 class="use-case-item-title">Small Teams</h5>
+                        <p class="use-case-item-desc">Effortlessly manage recruitment, attendance, and payroll all in
+                            one centralized platform</p>
+                    </div>
+                </div>
+
+                <!--2.Growing Teams-->
+                <div class="col-md-4">
+                    <div class="use-case-item">
+                        <div class="use-case-icon-wrapper mx-auto mb-4">
+                            <i class="bi bi-graph-up text-dark fs-2"></i>
+                        </div>
+                        <h5 class="use-case-item-title">Growing Teams</h5>
+                        <p class="use-case-item-desc">Scale your HR operations with advanced features like analytics and
+                            reporting.</p>
+                    </div>
+                </div>
+
+                <!--3.Large Enterprises-->
+                <div class="col-md-4">
+                    <div class="use-case-item">
+                        <div class="use-case-icon-wrapper mx-auto mb-4">
+                            <i class="bi bi-building text-dark fs-2"></i>
+                        </div>
+                        <h5 class="use-case-item-title">Large Enterprises</h5>
+                        <p class="use-case-item-desc">Streamline operations across multiple departments with
+                            collaborative tools.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--CTA Buttons-->
+            <div class="d-flex justify-content-center gap-3 mt-5">
+                <a href="#" class="btn btn-live-demo d-flex align-items-center gap-2">
+                    <i class="bi bi-play-fill fs-5"></i>Live Demo
+                </a>
+                <a href="#" class="btn btn-buy-product d-flex align-items-center gap-2">
+                    <i class="bi bi-cart3"></i>Buy Full Product
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Demos Section-->
+    <section id="Demos" class="demos-section text-center">
+        <!--Decorative Elements-->
+        <div class="decor-circle circle-top-right"></div>
+        <div class="decor-circle circle-bottom-left"></div>
+        <div class="container position-relative">
+            <!--Section Header-->
+            <div class="mb-4">
+                <div class="demos-subtitle-wrapper">
+                    <span class="demos-subtitle">Demos</span>
+                </div>
+                <h2 class="demos-title mt-2">See the template in action</h2>
+            </div>
+        </div>
+
+        <!--Demo Filter Buttons-->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+            <button class="btn demo-btn active" data-image="assets/img/demo/admin.png">Admin Dashboard</button>
+            <button class="btn demo-btn" data-image="assets/img/demo/employee.png">Employee Dashboard</button>
+            <button class="btn demo-btn" data-image="assets/img/demo/deals.png">Deals Dashboard</button>
+            <button class="btn demo-btn" data-image="assets/img/demo/leads.png">Leads Dashboard</button>
+            <button class="btn demo-btn" data-image="assets/img/demo/superadmin.png">Super Admin</button>
+        </div>
+
+        <!--Demo Image Wrapper-->
+        <div class="demo-image-container mx-auto mt-3">
+            <img id="demo-display-image" src="assets/img/demo/admin.png" alt="Dashboard Demo"
+                class="img-fluid rounded image-fade">
+        </div>
+
+        <!--CTA Buttons-->
+        <div class="mt-4">
+            <a href="#" class="btn btn-buy-template d-inline-flex align-items-center gap-2">
+                <i class="bi bi-cart3"></i> Buy Template
+            </a>
+        </div>
+    </section>
+
+    <!--Key Benefits Section-->
+    <section id="features" class="benefits-section">
+        <div class="container">
+
+            <!--Section Header-->
+            <div class="text-center mb-5 pb-3">
+                <div class="benefits-subtitle-wrapper">
+                    <span class="benefits-subtitle">Key Benefits</span>
+                </div>
+                <h2 class="benefits-title mt-2">Why Choose our HR Admin Panel?</h2>
+            </div>
+
+            <div class="row align-items-center g-5">
+
+                <!--Left Column Benefits List-->
+                <div class="col-lg-6">
+
+                    <!--Benefit:1-->
+                    <div class="benefit-item d-flex mb-4">
+                        <div class="benefit-number">1</div>
+                        <div>
+                            <h5 class="benefit-item-title">Boost Productivity</h5>
+                            <p class="benefit-item-desc">Automate repetitive tasks like candidate tracking, job
+                                postings, and payroll management to save time and focus on strategic HR activities.</p>
+                        </div>
+                    </div>
+
+                    <!--Benefit 2-->
+                    <div class="benefit-item d-flex mb-4">
+                        <div class="benefit-number">2</div>
+                        <div>
+                            <h5 class="benefit-item-title">Save Time</h5>
+                            <p class="benefit-item-desc">With everything integrated into one platform, you can manage
+                                job listings, employee records, performance reviews, and more in just a few clicks</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item d-flex mb-4">
+                        <div class="benefit-number">3</div>
+                        <div>
+                            <h5 class="benefit-item-title">Customizable & Scalable</h5>
+                            <p class="benefit-item-desc">Whether you’re a startup or a large enterprise, you can
+                                customize the platform’s features, layouts, and reporting capabilities to match your
+                                specific requirements</p>
+                        </div>
+                    </div>
+
+                    <!--Benfit 4-->
+                    <div class="benefit-item d-flex">
+                        <div class="benefit-number">4</div>
+                        <div>
+                            <h5 class="benefit-item-title">Enhanced Collaboration</h5>
+                            <p class="benefit-item-desc">Share documents, track progress on tasks, and ensure smooth
+                                communication across departments to meet your organizational goals</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Right Column Images Presentation-->
+                <div class="col-lg-6 position-relative">
+
+                    <!--Decorative Elements-->
+                    <div class="benefits-decor-dot"></div>
+                    <div class="benefits-striped-bg"></div>
+
+                    <!--Overlapping Image Compositions-->
+                    <div class="benefits-composition position-relative z-1">
+                        <!--Front Card-->
+                        <img src="assets/img/benefits/b1.svg" alt="Task Statistics" class="img-stat-card">
+
+                        <!--Back Card-->
+                        <img src="assets/img/benefits/b2.png" alt="Candidate Details" class="img-candidate-card">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Statistics Counter Section-->
+    <section class="section-counter-sec position-relative overflow-hidden">
+        <!-- Left Decorative Pattern: Dots Grid & Ambient Glow -->
+        <div class="stats-decor-left" aria-hidden="true">
+            <svg class="stats-dots-svg" width="90" height="70" viewBox="0 0 90 70" fill="none">
+                <circle cx="10" cy="12" r="4.5" fill="#f59e0b" />
+                <circle cx="35" cy="12" r="4.5" fill="#f59e0b" />
+                <circle cx="60" cy="12" r="4.5" fill="#f59e0b" />
+                <circle cx="85" cy="12" r="4.5" fill="#f59e0b" />
+                <circle cx="10" cy="35" r="4.5" fill="#f59e0b" />
+                <circle cx="35" cy="35" r="4.5" fill="#f59e0b" />
+                <circle cx="60" cy="35" r="4.5" fill="#f59e0b" />
+                <circle cx="85" cy="35" r="4.5" fill="#f59e0b" />
+                <circle cx="10" cy="58" r="4.5" fill="#f59e0b" />
+                <circle cx="35" cy="58" r="4.5" fill="#f59e0b" />
+                <circle cx="60" cy="58" r="4.5" fill="#f59e0b" />
+                <circle cx="85" cy="58" r="4.5" fill="#f59e0b" />
+            </svg>
+            <div class="stats-glow-circle"></div>
+        </div>
+
+        <!-- Right Decorative Pattern: Diagonal Angled Stripes -->
+        <div class="stats-decor-right" aria-hidden="true">
+            <svg class="stats-stripes-svg" viewBox="0 0 100 130" fill="none">
+                <line x1="85" y1="0" x2="15" y2="130" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" />
+                <line x1="100" y1="10" x2="30" y2="140" stroke="#ea580c" stroke-width="3" stroke-linecap="round" />
+                <line x1="115" y1="20" x2="45" y2="150" stroke="#dc2626" stroke-width="3" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="container position-relative z-1">
+            <div class="row g-4">
+                <!--Applications-->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-item text-center"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3 class="text-white mb-1">
+                            <span class="count-digit count-loader">10</span>+
+                        </h3>
+                        <p class="fw-medium fs-14 text-white">
+                            <i class="ti ti-apps me-1"></i>Applications
+                        </p>
+                    </div>
+                </div>
+
+                <!--Pages-->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-item text-center"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3 class="text-white mb-1">
+                            <span class="count-digit count-loader">200</span>+
+                        </h3>
+                        <p class="fw-medium fs-14 text-white">
+                            <i class="ti ti-files me-1"></i>Pages
+                        </p>
+                    </div>
+                </div>
+
+                <!--Widgets-->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-item text-center"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3 class="text-white mb-1">
+                            <span class="count-digit count-loader">80</span>+
+                        </h3>
+                        <p class="fw-medium fs-14 text-white">
+                            <i class="ti ti-layout me-1"></i>Widgets
+                        </p>
+                    </div>
+                </div>
+
+                <!--Components-->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-item text-center"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3 class="text-white mb-1">
+                            <span class="count-digit count-loader">400</span>+
+                        </h3>
+                        <p class="fw-medium fs-14 text-white">
+                            <i class="ti ti-components me-1"></i>Components
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Inner Pages Section-->
+    <section id="InnerPages" class="inner-pages-section position-relative overflow-hidden">
+
+        <div class="inner-pages-decor-right" aria-hidden="true"></div>
+
+        <div class="container position-relative z-1">
+            <!--Section Header-->
+            <div class="text-center mb-4">
+                <div class="inner-page-subtitle-wrapper">
+                    <span class="inner-pages-subtitle">Inner Pages</span>
+                </div>
+                <h2 class="inner-page-title mt-2">
+                    Prebuilt Pages to Accelerate your Workflow
+                </h2>
+            </div>
+
+            <!--Filter Buttons-->
+            <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+                <button class="btn page-filter-btn active" data-filter="applications">Applications</button>
+                <button class="btn page-filter-btn" data-filter="crms">CRMS</button>
+                <button class="btn page-filter-btn" data-filter="authentication">Authentication</button>
+                <button class="btn page-filter-btn" data-filter="other-modules">Other Modules</button>
+            </div>
+
+            <!--Pages Grid-->
+            <div class="row g-4" id="slot-grid">
+
+                <!--Slot 1-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Chats"
+                    data-app-img="assets/img/inner-pages/chats.png" data-crm-title="Contacts"
+                    data-crm-img="assets/img/inner-pages/contacts.png" data-auth-title="Sign-Up"
+                    data-auth-img="assets/img/inner-pages/signin.png" data-other-title="Employees"
+                    data-other-img="assets/img/inner-pages/employees.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Chats</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/chats.png" alt="Chats" class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 2-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Video Calls"
+                    data-app-img="assets/img/inner-pages/videocalls.png" data-crm-title="Companies"
+                    data-crm-img="assets/img/inner-pages/companies.png" data-auth-title="Sign-In"
+                    data-auth-img="assets/img/inner-pages/signup.png" data-other-title="Clients"
+                    data-other-img="assets/img/inner-pages/clients.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Video Calls</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/videocalls.png" alt="Video Calls"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 3-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Voice Calls"
+                    data-app-img="assets/img/inner-pages/voicecalls.png" data-crm-title="Deals"
+                    data-crm-img="assets/img/inner-pages/deals.png" data-auth-title="Forgot Password"
+                    data-auth-img="assets/img/inner-pages/forgot.png" data-other-title="Projects"
+                    data-other-img="assets/img/inner-pages/projects.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Voice Calls</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/voicecalls.png" alt="Voice Calls"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 4-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Calendar"
+                    data-app-img="assets/img/inner-pages/calendar.png" data-crm-title="Leads"
+                    data-crm-img="assets/img/inner-pages/leads.png" data-auth-title="Lock Screen"
+                    data-auth-img="assets/img/inner-pages/lockscreen.png" data-other-title="Tasks"
+                    data-other-img="assets/img/inner-pages/tasks.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Calendar</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/calendar.png" alt="Calendar"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 5 -->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Emails"
+                    data-app-img="assets/img/inner-pages/emails.png" data-crm-title="Pipelines"
+                    data-crm-img="assets/img/inner-pages/pipeline.png" data-auth-title="Error 404"
+                    data-auth-img="assets/img/inner-pages/404.png" data-other-title="Tickets"
+                    data-other-img="assets/img/inner-pages/tickets.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Emails</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/emails.png" alt="Calendar"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 6-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="To Do"
+                    data-app-img="assets/img/inner-pages/todo.png" data-crm-title="Activites"
+                    data-crm-img="assets/img/inner-pages/activities.png" data-auth-title="Error 500"
+                    data-auth-img="assets/img/inner-pages/500.png" data-other-title="Attendance"
+                    data-other-img="assets/img/inner-pages/attendance.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">To Do</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/todo.png" alt="Calendar"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 7-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="File Manager"
+                    data-app-img="assets/img/inner-pages/filemanager.png" data-auth-title="Under Maintenance"
+                    data-auth-img="assets/img/inner-pages/main.png" data-other-title="Jobs"
+                    data-other-img="assets/img/inner-pages/jobs.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">File Manager</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/filemanager.png" alt="Calendar"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 8-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Social Feed"
+                    data-app-img="assets/img/inner-pages/socialfeed.png" data-auth-title="Coming Soon"
+                    data-auth-img="assets/img/inner-pages/soon.png" data-other-title="Candidates"
+                    data-other-img="assets/img/inner-pages/candidates.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Social Feed</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/socialfeed.png" alt="Calendar"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Slot 9-->
+                <div class="col-md-6 col-lg-4 slot-item" data-app-title="Invoices"
+                    data-app-img="assets/img/inner-pages/invoices.png" data-auth-title="Under Construction"
+                    data-auth-img="assets/img/inner-pages/construct.png" data-other-title="Settings"
+                    data-other-img="assets/img/inner-pages/settings.png">
+                    <div class="inner-page-card">
+                        <div class="inner-page-card-header d-flex justify-content-between align-items-center">
+                            <h5 class="page-card-title mb-0">Invoices</h5>
+                            <i class="ti ti-arrow-right card-arrow"></i>
+                        </div>
+                        <div class="inner-page-img-wrapper">
+                            <img src="assets/img/inner-pages/invoices.png" alt="Calendar"
+                                class="img-fluid page-preview-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Continous Moving Marquee Ribbon Section-->
+    <section class="marquee-ticker-section position-relative overflow-hiiden">
+        <!--Background Slanted Orange Ribbon-->
+        <div class="marquee-ribbon-orange" aria-hidden="true"></div>
+
+        <!--Foreground Slanted Black Ribbon-->
+        <div class="marquee-ribbon-dark">
+            <div class="marquee-track">
+                <!--Content Set 1-->
+                <div class="marquee-content">
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Maximize Productivity
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Simplify Your Workflow
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        All-in One HR Solution
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Complete HR Control
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Streamline Recruitment
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Unlock HR Excellence
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Elevate Team Efficiency
+                    </span>
+                </div>
+
+                <!--Content Set 2 For Seamless Continous Loop-->
+                <div class="marquee-content">
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Maximize Productivity
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Simplify Your Workflow
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        All-in One HR Solution
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Complete HR Control
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Streamline Recruitment
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Unlock HR Excellence
+                    </span>
+
+                    <span class="marquee-item">
+                        <svg class="marquee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="7" r="4.5" />
+                            <circle cx="6.5" cy="16" r="4.5" />
+                            <circle cx="17.5" cy="16" r="4.5" />
+                        </svg>
+                        Elevate Team Efficiency
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Layouts Section-->
+    <section id="layouts" class="layouts-section position-relative overflow-hidden">
+        <!--Left Decorative Accent Dot-->
+        <div class="layouts-decor-left" aria-hidden="true"></div>
+
+        <div class="container position-relative z-1">
+            <!--Section Header-->
+            <div class="text-center mb-5">
+                <div class="layouts-subtitle-wrapper">
+                    <span class="layouts-subtitle">Layouts</span>
+                </div>
+                <h2 class="layouts-title mt-2">Explore Versatile Layouts</h2>
+            </div>
+
+            <!--Dynamic Grid-->
+            <div class="row g-3 g-lg-4" id="layouts-grid"></div>
+        </div>
+    </section>
+
+    <!--Pricing-->
+    <section id="pricing" class="pricing-section position-relative overflow-hidden">
+        <!--Background Decorations-->
+        <div class="pricing-decor-diamond" aria-hidden="true"></div>
+        <div class="pricing-dot-left" aria-hidden="true"></div>
+        <div class="pricing-dot-right" aria-hidden="true"></div>
+
+        <!--Pricing Title & Subtitle-->
+        <div class="container position-relative z-1">
+            <div class="text-center mb-4">
+                <div class="pricing-subtitle-wrapper">
+                    <span class="pricing-subtitle">Pricing</span>
+                </div>
+                <h2 class="pricing-title mt-2">Flexible Pricing Plans for Every Need</h2>
+            </div>
+
+            <!--License Cards-->
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-5 col-md-6 col-12">
+                    <div class="pricing-card">
+
+                        <!-- 1 Header & Price-->
+                        <div class="pricing-card-header text-center">
+                            <h3 class="plan-name">Regular License</h3>
+                            <div class="plan-price">$39</div>
+                            <p class="plan-desc">
+                                Use by, you or one client, in a single end product which end users are not charged for.
+                            </p>
+                        </div>
+
+                        <hr class="pricing-divider">
+                        <!-- 2 Features List with Icons-->
+                        <ul class="pricing-features list-unstyled">
+                            <!--Active Item Green Check-->
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Full Source Code</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Premium Support</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Life-Time Free Updates</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Figma Design File</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>No Charge for End Users</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>6 months of support (Envanto Support Policy)</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>All Features Included</span>
+                            </li>
+
+                            <!--Inactive Item-->
+                            <li class="feature-item disabled">
+                                <i class="bi bi-x-circle-fill icon-cross"></i>
+                                <span>For Commercial Projects</span>
+                            </li>
+
+                            <li class="feature-item disabled">
+                                <i class="bi bi-x-circle-fill icon-cross"></i>
+                                <span>Priority Support</span>
+                            </li>
+
+                            <li class="feature-item disabled">
+                                <i class="bi bi-x-circle-fill icon-cross"></i>
+                                <span>White-Label Branding</span>
+                            </li>
+
+                            <li class="feature-item disabled">
+                                <i class="bi bi-x-circle-fill icon-cross"></i>
+                                <span>Saas Product Development</span>
+                            </li>
+
+                            <li class="feature-item disabled">
+                                <i class="bi bi-x-circle-fill icon-cross"></i>
+                                <span>Installation Support</span>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn pricing-btn w-100">Choose Plan</a>
+                    </div>
+                </div>
+                <!--Card 2 Extended License-->
+                <div class="col-lg-5 col-md-6 col-12">
+                    <div class="pricing-card position-relative">
+                        <span class="pricing-badge">Recommended</span>
+                        <div class="pricing-card-header text-center">
+                            <h3 class="plan-name">Extended License</h3>
+                            <div class="plan-price">$499</div>
+                            <p class="plan-desc">Use, by you or one client, in a single end product which end users
+                                can be charged for.</p>
+                        </div>
+
+                        <hr class="pricing-divider">
+                        <!--2 Features List with Icons-->
+                        <ul class="pricing-features list-unstyled">
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Full Source Code</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Premium Support</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Lifetime free upadtes</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Figma Design Files</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>No charge for End Users</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>6 months of Supports (Envanto Supoort Policy)</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>All Features Included</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>For Commercial Projects</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>Priority Support</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>White Label Branding</span>
+                            </li>
+
+                            <li class="feature-item active">
+                                <i class="bi bi-check-circle-fill icon-check"></i>
+                                <span>SaaS Product Development</span>
+                            </li>
+
+                            <li class="feature-item disabled">
+                                <i class="bi bi-x-circle-fill icon-cross"></i>
+                                <span>Installation Support</span>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn pricing-btn w-100">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FAQ Section-->
+    <section id="FAQ" class="faq-section position-relative overflow-hidden">
+
+        <div class="container position-relative z-1">
+            <!--Section Header-->
+            <div class="text-center mb-4">
+                <div class="faq-subtitle-wrapper">
+                    <span class="faq-subtitle">FAQ</span>
+                </div>
+                <h2 class="faq-title mt-2">Frequently Asked Questions</h2>
+            </div>
+
+            <!--FAQ Accordion-->
+            <div class="accordion faq-accordion" id="faqAccordion">
+
+                <!-- 01 Item (Open by default) -->
+                <div class="accordion-item faq-item">
+                    <h3 class="accordion-header" id="faqHeadingOne">
+                        <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                            <span class="faq-number">01</span>
+                            <span class="faq-question">What is Regular License?</span>
+                            <span class="faq-icon-circle ms-auto">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">In Simple terms, Regular License means your end product is
+                            distributed for free</div>
+                    </div>
+                </div>
+
+                <!-- 02 Item (Closed by default) -->
+                <div class="accordion-item faq-item">
+                    <h3 class="accordion-header" id="faqHeadingTwo">
+                        <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                            <span class="faq-number">02</span>
+                            <span class="faq-question">What is Extended License?</span>
+                            <span class="faq-icon-circle ms-auto">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">Extended License allows building a single end product that
+                            you
+                            can use or transfer to a client where an end user of the product can be charged for. For
+                            Example;A subscription or a fixed price SaaS application</div>
+                    </div>
+                </div>
+
+                <!-- 03 Item (Closed by default) -->
+                <div class="accordion-item faq-item">
+                    <h3 class="accordion-header" id="faqHeadingThree">
+                        <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                            <span class="faq-number">03</span>
+                            <span class="faq-question">What will you get?</span>
+                            <span class="faq-icon-circle ms-auto">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">All HTML files, All React files, CSS files, SCSS files, JS
+                            files, Documentation, Reliable Technical Support, System, Lifetime Template Updates,
+                            Template
+                            Documentation.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Custom Design CTA Section-->
+    <section class="custom-design-section">
+        <div class="container">
+            <div class="row align-items-center justify-content-between g-4">
+                <!--Left Side Title Description-->
+                <div class="col-lg-6 col-md-6">
+                    <h2 class="custom-design-title text-white mb-2">Looking for a custom design?</h2>
+                    <p class="custom-design-desc text-yellow-50 mb-0">We are happy to customise your products based on
+                        your needs, send us a note!!!</p>
+                </div>
+
+                <!--Right Side white pill input with orange send button-->
+                <div class="col-lg-5 col-md-6">
+                    <form class="custom-email-form" onsubmit="event.preventDefault();">
+                        <input type="email" class="form-control custom-email-input"
+                            placeholder="Enter Your Email here..." required>
+                        <button type="submit" class="btn custom-email-btn" aria-label="Send">
+                            <i class="bi bi-send-fill"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials section -->
+    <section class="testimonials-section position-relative">
+        <!-- 1. Top-Left Giant Peach Double Quote-->
+        <div class="testimonial-decor-quote" aria-hidden="true">
+            <svg width="90" height="90" viewBox="0 0 24 24" fill="#fdeee9">
+                <path
+                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+        </div>
+
+        <!--2. Bottom-Right Curved Orange Diagonal Stripes-->
+        <div class="testimonial-decor-stripes" aria-hidden="true"></div>
+        <!--Inner Content Container-->
+        <div class="container position-relative z-1" style="min-height:380px">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
+                <div class="testimonials-subtitle-wrapper">
+                    <span class="testimonials-subtitle">Testimonials</span>
+                </div>
+                <h2 class="testimonials-title mt-2">What Our Clients are Saying?</h2>
+            </div>
+            <!--Testimonials Description-->
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="testimonial-drag-wrapper">
+                    <div class="testimonial-drag-track">
+                        <!--Card 1-->
+                        <div class="testimonial-card-item">
+                            <div class="testimonial-card h-100">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    Effective design, and easy to implement in our current product. These are the things
+                                    i was looking for when looking at this product. I'm more than happy with the
+                                    product, support team was effective in helping with the elements I needed.
+                                </p>
+                                <h6 class="testimonial-author mb-0">Robertselva</h6>
+                            </div>
+                        </div>
+
+                        <!--Card 2-->
+                        <div class="testimonial-card-item">
+                            <div class="testimonial-card h-100">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    Effective design, and easy to implement in our current product. These are the things
+                                    i was looking for when looking at this product. I'm more than happy with the
+                                    product, support team was effective in helping with the elements I needed.
+                                </p>
+                                <h6 class="testimonial-author mb-0">Garaat</h6>
+                            </div>
+                        </div>
+
+                        <!--Card 3-->
+                        <div class="testimonial-card-item">
+                            <div class="testimonial-card h-100">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    Effective design, and easy to implement in our current product. These are the things
+                                    i was looking for when looking at this product. I'm more than happy with the
+                                    product, support team was effective in helping with the elements I needed.
+                                </p>
+                                <h6 class="testimonial-author mb-0">LiaMaiella</h6>
+                            </div>
+                        </div>
+
+                        <!--Card 4-->
+                        <div class="testimonial-card-item">
+                            <div class="testimonial-card h-100">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    Effective design, and easy to implement in our current product. These are the things
+                                    i was looking for when looking at this product. I'm more than happy with the
+                                    product, support team was effective in helping with the elements I needed.
+                                </p>
+                                <h6 class="testimonial-author mb-0">Sanjeewha</h6>
+                            </div>
+                        </div>
+
+                        <!--Card 5-->
+                        <div class="testimonial-card-item">
+                            <div class="testimonial-card h-100">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    Effective design, and easy to implement in our current product. These are the things
+                                    i was looking for when looking at this product. I'm more than happy with the
+                                    product, support team was effective in helping with the elements I needed.
+                                </p>
+                                <h6 class="testimonial-author mb-0">David Chen</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- React Features Section -->
+    <section id="react-features" class="react-features-section position-relative overflow-hidden">
+
+        <div class="container position-relative z-1">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
+                <div class="features-subtitle-wrapper">
+                    <span class="features-subtitle">Features</span>
+                </div>
+                <h2 class="features-title mt-2">React Features</h2>
+            </div>
+
+            <!-- 12-Card Grid (6 per row on desktop) -->
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-3 g-lg-4 justify-content-center">
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/react.svg" alt="React 19"></div>
+                        <div class="feature-tech-label">React 19</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/scss.svg" alt="Scss"></div>
+                        <div class="feature-tech-label">Scss</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/redux.svg" alt="React Redux"></div>
+                        <div class="feature-tech-label">React Redux</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/bootstrap.svg" alt="Bootstrap 5">
+                        </div>
+                        <div class="feature-tech-label">Bootstrap 5</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/hooks.svg" alt="React Hooks"></div>
+                        <div class="feature-tech-label">React Hooks</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/rb.svg" alt="React Bootstrap">
+                        </div>
+                        <div class="feature-tech-label">React Bootstrap</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/apex.svg" alt="Apex Chart"></div>
+                        <div class="feature-tech-label">Apex Chart</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/ant.svg" alt="ANT DataTable"></div>
+                        <div class="feature-tech-label">ANT DataTable</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/eslint.svg" alt="ESLint"></div>
+                        <div class="feature-tech-label">ESLint</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/router.svg" alt="React Router">
+                        </div>
+                        <div class="feature-tech-label">React Router</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/calendar.svg" alt="Full Calender">
+                        </div>
+                        <div class="feature-tech-label">Full Calender</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-tech-card">
+                        <div class="feature-tech-icon"><img src="assets/img/features/npm.svg" alt="NPM"></div>
+                        <div class="feature-tech-label">NPM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA Section -->
+    <footer class="footer-cta-section text-center">
+        <div class="container position-relative z-1">
+            <!-- Big React Logo Background Watermark -->
+            <svg class="footer-react-watermark" width="270" height="270" viewBox="-115 -102 230 204" fill="none"
+                aria-hidden="true">
+                <ellipse cx="0" cy="0" rx="95" ry="36" stroke="rgba(255, 255, 255, 0.12)" stroke-width="4.5" />
+                <ellipse cx="0" cy="0" rx="95" ry="36" transform="rotate(60)" stroke="rgba(255, 255, 255, 0.12)"
+                    stroke-width="4.5" />
+                <ellipse cx="0" cy="0" rx="95" ry="36" transform="rotate(120)" stroke="rgba(255, 255, 255, 0.12)"
+                    stroke-width="4.5" />
+                <circle cx="0" cy="0" r="14" fill="rgba(255, 255, 255, 0.12)" />
+            </svg>
+
+            <!-- Top Badges Row -->
+            <div class="footer-badges-row d-flex flex-wrap justify-content-center align-items-center gap-4 mb-4">
+                <div class="footer-badge-item d-flex align-items-center gap-2">
+                    <span class="badge-icon-box badge-orange"><i class="bi bi-stack"></i></span>
+                    <span class="footer-badge-text">Elite Author</span>
+                </div>
+                <div class="footer-badge-item d-flex align-items-center gap-2">
+                    <span class="badge-icon-box badge-blue"><i class="bi bi-lightning-charge-fill"></i></span>
+                    <span class="footer-badge-text">Trendsetter</span>
+                </div>
+                <div class="footer-badge-item d-flex align-items-center gap-2">
+                    <span class="badge-icon-box badge-red"><i class="bi bi-award-fill"></i></span>
+                    <span class="footer-badge-text">Author Level</span>
+                </div>
+            </div>
+
+            <!-- Main Heading -->
+            <h2 class="footer-cta-title text-white mb-4">
+                Build your web App with<br>
+                SmartHR React dashboard
+            </h2>
+
+            <!-- Action Buttons -->
+            <div class="footer-cta-buttons d-flex flex-wrap justify-content-center gap-3 mb-5">
+                <a href="#" class="btn btn-cta-orange d-inline-flex align-items-center gap-2">
+                    <i class="bi bi-cart3"></i> Buy Template
+                </a>
+                <a href="#" class="btn btn-cta-teal d-inline-flex align-items-center gap-2">
+                    <i class="bi bi-cart3"></i> Buy Full Product
+                </a>
+            </div>
+
+            <!-- Copyright Line -->
+            <p class="footer-copyright mb-0">
+                Copyright 2026 © <a href="#" class="copyright-link">Dreamstechnologies</a>
+            </p>
+        </div>
+    </footer>
+
+    <!--Floating Whatsapp & Gmail Contact Badge-->
+    <div class="floating-contact-pill" id="floatingContactPill" aria-label="Quick Contact Options">
+        <!--Whatsapp Button-->
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="contact-pill-btn btn-whatsapp"
+            aria-label="Chat on Whatsapp" title="Chat on Whatsapp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <a href="mailto:parthmagnani10@gmail.com" class="contact-pill-btn btn-gmail" aria-label="Send an Email"
+            title="Send an Email">
+            <svg class="mail-svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.2" linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="3"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Floating "We Are Here!" Live Chat Button -->
+    <a href="#" class="floating-chat-here-btn" id="floatingChatHere" aria-label="We Are Here! Chat with us"
+        title="Chat with us">
+        <!-- SVG Image of Hand and "We Are Here!" Text -->
+        <img src="assets/img/wah.svg" class="chat-wah-img" alt="We Are Here!" />
+
+        <!-- Green Circular Message Button -->
+        <div class="chat-circle-btn">
+            <svg class="chat-bubble-icon" viewBox="0 0 32 32" width="28" height="28" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M 16 0 C 7.2 0 0 7.2 0 16 C 0 19.5 1.2 22.8 3.3 25.4 L 0.2 31.8 C -0.1 32.4 0.5 33 1.1 32.8 L 7.6 30.2 C 10.1 31.3 12.9 32 16 32 C 24.8 32 32 24.8 32 16 C 32 7.2 24.8 0 16 0 Z"
+                    fill="#ffffff" />
+                <path d="M 9 17 C 10 23.5 22 23.5 23 17 C 20.5 18.8 11.5 18.8 9 17 Z" fill="#00ba51" />
+            </svg>
+        </div>
+    </a>
+
+    <!-- Live Chat Popup Box (Tawk.to Style) -->
+    <div class="live-chat-popup-box" id="liveChatPopup">
+        <!-- Top Green Section -->
+        <div class="chat-popup-green-body">
+            <div class="chat-popup-header text-center text-white">
+                <h3 class="chat-popup-heading">We are live and ready to chat with you now.</h3>
+                <p class="chat-popup-subheading">Say something to start a live chat.</p>
+            </div>
+
+            <!-- New Conversation White Card -->
+            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="chat-new-conv-card"
+                id="chatNewConvBtn">
+                <div class="chat-conv-text">
+                    <h4 class="chat-conv-title">New Conversation</h4>
+                    <p class="chat-conv-desc">We typically reply in a few minutes</p>
+                </div>
+                <div class="chat-conv-send-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#00a84e" stroke-width="2.2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+        <!-- Bottom Navigation Bar -->
+        <div class="chat-popup-bottom-nav">
+            <button type="button" class="chat-nav-btn active" aria-label="Home">
+                <i class="bi bi-house-door-fill"></i>
+            </button>
+            <button type="button" class="chat-nav-btn" aria-label="Messages">
+                <i class="bi bi-chat-left-text"></i>
+            </button>
+        </div>
+    </div>
+
+    <!--Scroll to Top Button-->
+    <button type="button" class="scroll-to-top-btn" id="scrollToTopBtn" aria-label="Scroll To Top"
+        title="Scroll To top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

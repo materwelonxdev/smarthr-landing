@@ -1,0 +1,61 @@
+.use-case-section {
+  background: #fff;
+  padding: 100px 0;
+}
+
+.use-case-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 24px;
+  border-radius: 12px;
+  background: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.use-case-icon i {
+  font-size: 2.4rem;
+  color: var(--bs-primary);
+}
+
+.use-case-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--bs-heading-color);
+  margin-bottom: 12px;
+}
+
+.use-case-text {
+  color: #6b7280;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.btn-live-demo {
+  background: #111827;
+  color: #fff;
+  border-radius: 4px;
+  padding: 12px 22px;
+  font-weight: 500;
+}
+
+.btn-live-demo:hover {
+  background: #000;
+  color: #fff;
+}
+
+.btn-buy-product {
+  background: var(--bs-primary);
+  color: #fff;
+  border-radius: 4px;
+  padding: 12px 22px;
+  font-weight: 500;
+}
+
+.btn-buy-product:hover {
+  background: #d9561a;
+  color: #fff;
+}

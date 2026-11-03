@@ -1,0 +1,43 @@
+.section-header {
+  margin-bottom: 48px;
+}
+
+.section-label {
+  display: inline-block;
+  color: var(--bs-primary);
+  font-weight: 500;
+  font-size: 1.15rem;
+  padding-bottom: 6px;
+  position: relative;
+}
+
+.section-label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #111827 50%, #2b7a8c 50%);
+}
+
+.section-title {
+  margin: 12px 0 0;
+  font-weight: 700;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--bs-heading-color);
+}
+
+.section-subtitle {
+  margin: 12px 0 0;
+  font-size: 1.1rem;
+}
+
+.section-header.light .section-title,
+.section-header.light .section-subtitle {
+  color: #fff;
+}
+
+.section-header.light .section-label::after {
+  background: linear-gradient(90deg, #fff 50%, #2b7a8c 50%);
+}

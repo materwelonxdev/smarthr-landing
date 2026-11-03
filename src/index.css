@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --bs-primary: #f26522;
+  --bs-primary-rgb: 242, 101, 34;
+  --bs-body-font-family: "Inter", sans-serif;
+  --bs-body-color: #4b5563;
+  --bs-heading-color: #111827;
+
+  --hero-bg: #051a29;
+  --dark-bg: #212529;
+  --accent-cyan: #0dc8f0;
+  --peach: #fde3d8;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.btn-primary {
+  --bs-btn-bg: #f26522;
+  --bs-btn-border-color: #f26522;
+  --bs-btn-hover-bg: #d9561a;
+  --bs-btn-hover-border-color: #d9561a;
+  --bs-btn-active-bg: #c04e17;
+  --bs-btn-active-border-color: #c04e17;
+}

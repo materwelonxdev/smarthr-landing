@@ -1,0 +1,17 @@
+export const layouts = [
+  { name: "Default", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-01.svg" },
+  { name: "Mini", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-02.svg" },
+  { name: "Horizontal", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-03.svg" },
+  { name: "Detached", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-04.svg" },
+  { name: "Modern", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-05.svg" },
+  { name: "Two Column", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-06.svg" },
+  { name: "Hovered", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-07.svg" },
+  { name: "Boxed", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-08.svg" },
+  { name: "RTL", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-09.svg" },
+  { name: "Dark", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-10.svg" },
+  { name: "Horizontal Overlay", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-11.svg" },
+  { name: "Horizontal Single", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-12.svg" },
+  { name: "Horizontal Box", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-13.svg" },
+  { name: "Without Header", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-14.svg" },
+  { name: "Compact", img: "https://smarthr.dreamstechnologies.com/react/assets/img/layouts/layout-15.svg" },
+];
